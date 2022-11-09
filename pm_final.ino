@@ -149,12 +149,6 @@ void loop() {
     frequency = pzem.frequency();
     pf = pzem.pf();
 
-    //voltage = random(224,230);
-    //current = random(1.5,2.3);  
-    //power = random(100,130);
-   // frequency = 50;
-    //pf = 1;
-
 
     float Seconds = 0.00;
     float Minutes = 0.00;
@@ -173,12 +167,6 @@ void loop() {
     String b = String(voltage);
 
 
-//    if(a=="nan" && b=="nan") {
-//        if(loopcheck==0) {
-//            EEPROMloop();
-//            loopcheck=1;
-//        }
-//    }
     if(a == "nan") {
         Energy = 0.000;
     }
